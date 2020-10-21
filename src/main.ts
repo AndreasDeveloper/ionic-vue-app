@@ -20,6 +20,10 @@ import '@ionic/vue/css/text-transformation.css';
 import '@ionic/vue/css/flex-utils.css';
 import '@ionic/vue/css/display.css';
 
+// PWA Imports
+import { defineCustomElements } from '@ionic/pwa-elements/loader';
+defineCustomElements(window);
+
 /* Theme variables */
 import './theme/variables.css';
 
